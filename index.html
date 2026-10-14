@@ -1,0 +1,192 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Chi's Mini Boutique | The boutique edit</title>
+    <meta name="description"
+        content="Discover considered clothing and everyday style from Chi's Mini Boutique in Port Harcourt, Nigeria.">
+    <meta property="og:title" content="Chi's Mini Boutique | The boutique edit">
+    <meta property="og:description" content="Thoughtful finds for the days you want to feel like yourself.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/website_image.png">
+    <link rel="icon" type="image/png" href="assets/cmb.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600rfamily=Inter:wght@400;500;600rdisplay=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css?v=20261014-admin-theme2" rel="stylesheet">
+<meta name="theme-color" content="#f8f9fb"><link rel="manifest" href="manifest.webmanifest"></head>
+
+<body>
+    <div class="announcement-bar">A considered edit, chosen with care <span aria-hidden="true"> </span> Delivery across
+        Nigeria</div>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Chi's Mini Boutique home"><img class="brand-logo"
+                src="assets/cmb.png" alt="Chi's Mini Boutique"></a>
+        <nav class="header-nav" aria-label="Main navigation"><button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false"><span aria-hidden="true">◐</span><span data-theme-label>Dark</span></button>
+            <a href="#shop">The collection</a>
+            <button class="install-app-button" type="button" data-install-app hidden>Install app</button><a class="bag-button" href="#cartDrawer" data-bs-toggle="offcanvas" data-bs-target="#cartDrawer"
+                aria-controls="cartDrawer" aria-label="Open shopping bag, 0 items">
+                <svg class="bag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4.5 8.5h15l-1.2 12h-12l-1.3-12Z"></path>
+                    <path d="M8.5 9V6a3.5 3.5 0 0 1 7 0v3"></path>
+                </svg>
+                <span class="bag-count" data-cart-count>0</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container-fluid" aria-labelledby="hero-title">
+            <img class="hero-banner-image" src="assets/website_banner.png" alt="">
+            <div class="hero-copy">
+                <p class="eyebrow">Chi's Mini Boutique <span aria-hidden="true">/</span> Port Harcourt</p>
+                <h1 id="hero-title">A wardrobe,<br>well considered.</h1>
+                <p>Pieces for the everyday, and the moments that feel a little different.</p>
+                <a class="button button-dark hero-cta" href="#shop">Discover the edit</a>
+            </div>
+            <p class="hero-index">The boutique edit <span>Port Harcourt rmiddot; Nigeria</span></p>
+        </section>
+        <section class="intro-strip" aria-label="Our approach"><span>01   THE EDIT</span>
+            <p>Easy pieces. Thoughtful details. A little something that feels like you.</p><a href="#shop">Shop all
+                <span aria-hidden="true">  </span></a>
+        </section>
+        <section class="category-feature-section" aria-labelledby="category-feature-title">
+            <div class="category-feature-heading">
+                <div>
+                    <p class="eyebrow">Find your place</p>
+                    <h2 id="category-feature-title">Shop by category</h2>
+                </div>
+                <a class="underlink" href="#shop">Explore the full collection </a>
+            </div>
+            <div class="category-feature-grid" data-category-cards aria-label="Browse product categories"></div>
+        </section>
+        <section class="new-arrivals-section" aria-labelledby="new-arrivals-title">
+            <div class="new-arrivals-heading">
+                <div>
+                    <p class="eyebrow">Fresh from the edit</p>
+                    <h2 id="new-arrivals-title">Just added</h2>
+                </div>
+                <a class="underlink" href="#shop">See every piece </a>
+            </div>
+            <div class="new-arrivals-grid" data-new-arrivals aria-label="Recently added products"></div>
+        </section>
+        <section class="container shop-section" id="shop">
+            <div class="section-intro shop-heading">
+                <div>
+                    <p class="eyebrow">The collection <span aria-hidden="true"> </span> Port Harcourt, Nigeria</p>
+                    <h2>Pieces to keep close</h2>
+                </div>
+                <p class="section-note">A small, considered selection for wherever the day takes you.</p>
+            </div>
+            <div class="collection-tools">
+                <label class="collection-search">
+                    <span class="visually-hidden">Search products</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                        stroke-linecap="round" aria-hidden="true">
+                        <circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path>
+                    </svg>
+                    <input type="search" data-product-search placeholder="Find a piece" autocomplete="off">
+                </label>
+                <label class="collection-sort"><span>Sort by</span>
+                    <select data-product-sort aria-label="Sort products">
+                        <option value="recommended">Recommended</option>
+                        <option value="price-asc">Price: low to high</option>
+                        <option value="price-desc">Price: high to low</option>
+                        <option value="name-asc">Name: A to Z</option>
+                    </select>
+                </label>
+            </div>
+            <div class="category-row" data-categories aria-label="Filter products by category"><button
+                    class="category-chip active" data-category="">All pieces</button></div>
+            <p class="visually-hidden" data-result-count aria-live="polite"></p>
+            <div class="product-grid" data-products aria-live="polite">
+                <div class="product-grid-message">
+                    <p class="muted">Loading the collection...</p>
+                </div>
+            </div>
+        </section>
+        <section class="editorial-band" aria-labelledby="editorial-title">
+            <div class="editorial-copy">
+                <p class="eyebrow">02   A NOTE ON STYLE</p>
+                <h2 id="editorial-title">Made for your<br>own kind of day.</h2>
+                <p>From slow mornings to plans that run late, find pieces that move with you and feel right at home.</p>
+                <a class="underlink" href="#shop">Find your everyday <span aria-hidden="true">  </span></a>
+            </div>
+            <div class="editorial-image"><img src="assets/website_image.png" alt="Warm, neutral boutique interior with a considered clothing collection" loading="lazy"></div>
+        </section>
+        <section class="service-notes" aria-label="Shopping with Chi's Mini Boutique">
+            <div><span>01</span>
+                <h3>From Port Harcourt</h3>
+                <p>Our home base, with delivery available across Nigeria.</p>
+            </div>
+            <div><span>02</span>
+                <h3>Secure checkout</h3>
+                <p>Complete your order through our secure checkout.</p>
+            </div>
+            <div><span>03</span>
+                <h3>Clear delivery fees</h3>
+                <p>See your delivery fee before you place the order.</p>
+            </div>
+            <div><span>04</span>
+                <h3>Here to help</h3>
+                <p><a href="https://wa.me/2348064177251">Chat with us on WhatsApp </a></p>
+            </div>
+        </section>
+        <section class="faq-section" aria-labelledby="faq-title">
+            <div class="faq-intro">
+                <p class="eyebrow">A little help</p>
+                <h2 id="faq-title">Good to know.</h2>
+                <p>Need a hand with an order? <a href="https://wa.me/2348064177251">Message us on WhatsApp.</a></p>
+            </div>
+            <div class="faq-list">
+                <details>
+                    <summary>How do I choose the right size?</summary>
+                    <p>Open a product to see the available sizes. If you are unsure, message us before ordering and we can help.</p>
+                </details>
+                <details>
+                    <summary>When will I see my delivery fee?</summary>
+                    <p>Your delivery fee is shown at checkout after you enter your delivery state, before payment.</p>
+                </details>
+                <details>
+                    <summary>Where does Chi's Mini Boutique deliver?</summary>
+                    <p>We are based in Port Harcourt and offer delivery across Nigeria. Your delivery details are confirmed during checkout.</p>
+                </details>
+            </div>
+        </section>
+        <section class="closing-note">
+            <p class="eyebrow">A LITTLE MORE YOU</p>
+            <h2>Your next favourite<br>might be right here.</h2><a class="button button-dark" href="#shop">Shop the
+                collection</a>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-brand"><a class="brand" href="index.html"><img class="brand-logo" src="assets/cmb.png"
+                    alt="Chi's Mini Boutique"></a>
+            <p>Thoughtful finds, delivered across Nigeria.</p>
+        </div>
+        <div class="footer-links"><a href="https://wa.me/2348064177251">WhatsApp</a><a
+                href="https://instagram.com/">Instagram</a><a href="tel:08064177251">Call the boutique</a></div>
+        <small>Delivery fee shown at checkout <span aria-hidden="true"> </span> Port Harcourt, Nigeria</small>
+    </footer>
+    <div class="offcanvas offcanvas-end cart-drawer" tabindex="-1" id="cartDrawer" aria-labelledby="cartTitle">
+        <div class="offcanvas-header drawer-head">
+            <h2 class="offcanvas-title" id="cartTitle">Your bag</h2><button type="button" class="drawer-close"
+                data-bs-dismiss="offcanvas" aria-label="Close bag">Close</button>
+        </div>
+        <div class="offcanvas-body">
+            <div data-cart-lines></div>
+            <div class="drawer-total"><span>Estimated subtotal</span><strong data-cart-subtotal>NGN 0</strong></div><a
+                class="button button-dark w-100 mt-3" href="checkout.html">Continue to checkout</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/js/app.js?v=20261012-cartclear1" defer></script>
+    <script src="assets/js/shop.js?v=20261012-size-reset" defer></script>
+<script src="assets/js/pwa.js?v=20261014-pwa" defer></script><script src="assets/js/theme.js?v=20261014-1" defer></script></body>
+
+</html>
